@@ -13,20 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.nphausg.app.reply.data
 
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "Reply"
-include(":app")
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+/**
+ * A class which represents an account
+ */
+data class Account(
+    /** Unique ID of a user **/
+    val id: Long,
+    /** User's first name **/
+    @StringRes val firstName: Int,
+    /** User's last name **/
+    @StringRes val lastName: Int,
+    /** User's email address **/
+    @StringRes val email: Int,
+    /** User's avatar image resource id **/
+    @DrawableRes val avatar: Int
+)

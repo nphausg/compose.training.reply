@@ -13,20 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.nphausg.app.reply.ui
 
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
+import com.nphausg.app.reply.data.Email
+import com.nphausg.app.reply.data.MailboxType
+import com.nphausg.app.reply.data.local.LocalEmailsDataProvider
+
+data class ReplyUiState(
+    val mailboxes: Map<MailboxType, List<Email>> = emptyMap(),
+    val currentMailbox: MailboxType = MailboxType.Inbox,
+    val currentSelectedEmail: Email = LocalEmailsDataProvider.defaultEmail,
+    val isShowingHomepage: Boolean = true
+) {
+    val currentMailboxEmails: List<Email> by lazy { mailboxes[currentMailbox]!! }
 }
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "Reply"
-include(":app")
