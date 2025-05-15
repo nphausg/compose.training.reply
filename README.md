@@ -18,8 +18,8 @@
 </div>
 
 ## ⭐ Introduction
-The Reply app is a basic email client that displays various categories of your
-inbox. This app is used to illustrate the concept of adaptive layouts.
+
+The Reply App isn't just any email app; it's a deliberately simplified email client designed to showcase adaptive layouts. This means it's built to demonstrate how an application's user interface can dynamically adjust and respond effectively to different screen sizes and orientations. The fact that it displays "various categories of your inbox" provides the content structure that these adaptive layout principles can be applied to. The Navigation Update Starter Code you mentioned earlier would then be a specific set of tools or a foundation aimed at modifying how users move between these inbox categories within this adaptive layout context.
 
 ## 👇 Pre-requisites
 
@@ -36,18 +36,19 @@ inbox. This app is used to illustrate the concept of adaptive layouts.
 4. Build and run the sample.
 
 ## 📢 Stay Connected
+
 💬 Found this useful? Give this repo a ⭐ and follow me for more Jetpack Compose content!
 
 ## 🌍 Connect With me
 
 Follow the repository for updates and improvements:
-- GitHub: [@nphausg](https://github.com/nphausg/loomIn)
+- GitHub: [@nphausg](https://github.com/nphausg)
 - Twitter: [@nphausg](https://x.com/nphausg)
 - Medium: [@nphausg](https://medium.com/@nphausg)
 - LinkedIn: [@nphausg](https://www.linkedin.com/in/nphausg)
 
 
-<a href="https://revolut.me/nphausg" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="nphausg" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<a href="https://revolut.me/nphausg" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="nphausg" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"></a>
 
 ## 📜 License
 This project is licensed under the Apache License 2.0 – see the LICENSE file for details.
